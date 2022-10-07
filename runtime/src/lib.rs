@@ -556,3 +556,8 @@ impl_runtime_apis! {
 		}
 	}
 }
+
+// new line added
+impl bool {
+    pub fn then_some<T>(self, t: T) -> Option<T>;
+}
